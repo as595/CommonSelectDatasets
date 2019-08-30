@@ -12,6 +12,8 @@ if members and len(items)>0:
          list = []
 ```
 
+#### Data cleaning
+
 In the PDF, the lists of members present are given in two columns. ```textract``` does not distinguish these columns and so the names in each column are concatenated in each line. 
 
 ```python
