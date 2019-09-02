@@ -1,6 +1,8 @@
 # CommonSelectDatasets
 Repository for UK House of Commons Select Committee Minutes Datasets
 
+*If you use these data, please cite the DOI:*
+
 Useful for doing interesting things like... determining the gender balance in the witnesses called to give evidence before each select committee and ranking them:
 
 ![](https://github.com/as595/CommonSelectDatasets/blob/master/media/committees.png)
@@ -20,3 +22,17 @@ The JSON files for each committe for each year are named:
 COMMITTEE-NAME_Y1-Y2.json
 
 and can be obtained in bulk for each committee using the COMMITTEE-NAME.json.tar files. Each individual file contains a list of JSON objects, one for each meeting. The format of the JSON objects [is described here](https://github.com/as595/CommonSelectDatasets/blob/master/PAGES/dataformat.md).
+
+### The JSON object
+
+The JSON object for each committee meeting has a number of keywords which contain information automatically extracted from the text files. These include:
+
+* date
+* committee name
+* [committee chair](https://github.com/as595/CommonSelectDatasets/blob/master/PAGES/chair.md)
+* [present committee members](https://github.com/as595/CommonSelectDatasets/blob/master/PAGES/members.md)
+* [a list of witnesses called to give oral evidence](https://github.com/as595/CommonSelectDatasets/blob/master/PAGES/witnesses.md)
+* the number of business items
+* the content of the minutes for the business
+* the date of the next meeting
+
