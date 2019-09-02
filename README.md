@@ -19,4 +19,4 @@ The JSON files for each committe for each year are named:
 
 COMMITTEE-NAME_Y1-Y2.json
 
-and can be obtained in bulk for each committee using the COMMITTEE-NAME.json.tar files. Each individual file contains a list of JSON objects, one for each meeting. The format of the JSON objects [is described here](https://github.com/as595/CommonSelectDatasets/blob/master/pages/DataFormat.md).
+and can be obtained in bulk for each committee using the COMMITTEE-NAME.json.tar files. Each individual file contains a list of JSON objects, one for each meeting. The format of the JSON objects [is described here](https://github.com/as595/CommonSelectDatasets/blob/master/PAGES/dataformat.md).
