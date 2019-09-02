@@ -27,12 +27,13 @@ and can be obtained in bulk for each committee using the COMMITTEE-NAME.json.tar
 
 The JSON object for each committee meeting has a number of keywords which contain information automatically extracted from the text files. These include:
 
-* date
+* [date](https://github.com/as595/CommonSelectDatasets/blob/master/PAGES/date.md)
 * committee name
 * [committee chair](https://github.com/as595/CommonSelectDatasets/blob/master/PAGES/chair.md)
 * [present committee members](https://github.com/as595/CommonSelectDatasets/blob/master/PAGES/members.md)
-* [a list of witnesses called to give oral evidence](https://github.com/as595/CommonSelectDatasets/blob/master/PAGES/witnesses.md)
+* a list of [witnesses called to give oral evidence](https://github.com/as595/CommonSelectDatasets/blob/master/PAGES/witnesses.md)
 * the number of business items
 * the content of the minutes for the business
 * the date of the next meeting
 
+This format [is illustrated here](https://github.com/as595/CommonSelectDatasets/blob/master/PAGES/dataformat.md).
